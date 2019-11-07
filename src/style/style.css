@@ -30,3 +30,15 @@ a {
 img {
   vertical-align: middle;
 }
+ li > img {
+   width: 20px;
+ }
+
+ .headerOption {
+   display: inline;
+ }
+
+ .headerOption > ul {
+   display: inline;
+   margin-left: 300px;
+ }

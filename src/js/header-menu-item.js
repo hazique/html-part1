@@ -1,6 +1,6 @@
 import React from 'react';
 
-function HeaderListItem(props) {
+function HeaderMenuItem(props) {
     return (
         <li>
             <a>{props.title}</a>
@@ -8,4 +8,4 @@ function HeaderListItem(props) {
     );
 }
 
-export default HeaderListItem;
+export default HeaderMenuItem;

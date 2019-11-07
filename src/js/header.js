@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from '../img/header-logo.svg';
 import '../style/style.css';
-import HeaderListItem from './header-list-item';
+import HeaderMenu from './header-menu';
+import HeaderOption from './header-option';
 
 function Header() {
     return (
@@ -9,16 +10,8 @@ function Header() {
             <a>
                 <img src={logo}></img>
             </a>
-            <div class="header-div">
-                <ul>
-                    <HeaderListItem title="Home"/>
-                    <HeaderListItem title="Documentation"/>
-                    <HeaderListItem title="Examples"/>
-                    <HeaderListItem title="Themes"/>
-                    <HeaderListItem title="Expo"/>
-                    <HeaderListItem title="Logo"/>
-                </ul>
-            </div>
+            <HeaderMenu />
+            <HeaderOption />
         </header>
     );
 }
