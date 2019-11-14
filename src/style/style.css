@@ -1,44 +1,173 @@
 header {
-  position: sticky;
-  background-color: #563d7c;
-  min-height: 60px;
-  vertical-align: middle;
+    position: sticky;
+    background-color: #563d7c;
+    min-height: 60px;
+    vertical-align: middle;
 }
 
 li {
-  display: inline;
-  margin-left: 20px;
-  vertical-align: middle;
+    display: inline;
+    margin-left: 20px;
+    vertical-align: middle;
 }
 
 li > a {
-  font-size: 16px;
-  font-weight: 400;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  text-decoration-color: #cbbde2;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-decoration-color: #cbbde2;
 }
 
 a {
-  display: inline; 
-  color: white;
+    display: inline;
+    color: white;
 }
 
 .header-div {
-  display: inline-block;
+    display: inline-block;
 }
 
 img {
-  vertical-align: middle;
+    vertical-align: middle;
 }
- li > img {
-   width: 20px;
- }
 
- .headerOption {
-   display: inline;
- }
+li > img {
+    width: 20px;
+}
 
- .headerOption > ul {
-   display: inline;
-   margin-left: 300px;
- }
+.headerOption {
+    display: inline;
+}
+
+.headerOption>ul {
+    display: inline;
+    margin-left: 300px;
+}
+
+.hero {
+    padding: 3rem;
+    background-color: rgb(248, 249, 250);
+}
+
+.hero > div {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+div>h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 57px;
+}
+
+p {
+    max-width: 80%;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    line-height: 36px;
+}
+
+.content-item {
+    display: inline-block;
+    position: relative;
+    width: 451px;
+    text-align: left;
+    margin-bottom: 16px;
+    max-width: 25%;
+}
+
+.content-item > a > img {
+    width: 421px; 
+    height: 267px;
+    border-style: solid;
+    border-color: rgb(222, 226, 230);
+    border-width: 1px;
+    border-radius: 4px;
+    padding: 4px;
+    margin-bottom: 16px;
+}
+
+.content-item > a {
+    text-align: left;
+}
+
+.content-item > span {
+    font-size: 20px;
+    color: rgb(0, 123, 255);
+    font-weight: 500;
+    display: block;
+    line-height: 24px;
+    margin-bottom: 4px;
+    text-align: left;
+}
+
+.content-item > p {
+    align-content: initial;
+    display: block;
+    line-height: 24px;
+    margin-block-end: 16px;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 16px;
+    color: rgb(108, 117, 125);
+}
+
+.content-frame {
+    padding: 48px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.content-frame > p {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.content-frame > h2 {
+    font-weight: 500;
+    margin-bottom: 8px;
+    display: block;
+    line-height: 38px;
+    font-size: 32px;
+    text-align: left;
+}
+
+.footer {
+    padding: 48px;
+    background: rgb(247, 247, 247);
+    text-align: left;
+}
+
+.footer > ul > li > a {
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(73, 80, 87);
+    line-height: 21px;
+}
+
+.footer > ul {
+    text-align: left;
+    padding-inline-start: 0px;
+    margin-left: -18px;
+}
+
+.footer > p {
+    color: rgb(108, 117, 125);
+    line-height: 20px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    margin: 0px;
+}
