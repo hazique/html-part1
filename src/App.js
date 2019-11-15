@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './js/header';
-import HeaderSlot from './js/hero-slot';
+import HeroSlot from './js/hero-slot';
 import ContentFrame from './js/content-frame';
 import Footer from './js/footer';
 
@@ -45,7 +45,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <HeaderSlot />
+      <HeroSlot />
       <ContentFrame itemList={itemList} heading="Custom components" subHeading="Brand new components and templates to help folks quickly get started with Bootstrap and demonstrate best practices for adding onto the framework." />
       <Footer />
     </div>

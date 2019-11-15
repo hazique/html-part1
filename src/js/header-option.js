@@ -15,6 +15,7 @@ function HeaderOption(){
                 <HeaderOptionItem imageUrl={twitter} />
                 <HeaderOptionItem imageUrl={slack} />
             </ul>
+            <a>Download</a>
             
         </div>
 

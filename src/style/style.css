@@ -39,9 +39,22 @@ li > img {
     display: inline;
 }
 
-.headerOption>ul {
+.headerOption > ul {
     display: inline;
     margin-left: 300px;
+}
+
+.headerOption > a {
+    color: rgb(255, 228, 132);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    padding: 6px 12px 6px 12px;
+    margin-left: 16px;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration-style: solid;
 }
 
 .hero {
@@ -69,6 +82,8 @@ p {
     margin-bottom: 1rem;
     font-size: 1.5rem;
     line-height: 36px;
+    color: rgb(33, 37, 41);
+    width: 1063px;
 }
 
 .content-item {
